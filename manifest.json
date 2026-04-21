@@ -1,0 +1,23 @@
+
+{
+  "name": "SteadySpreader",
+  "version": "1.0",
+  "description": "Spread Steady articles",
+  "manifest_version": 2,
+  "browser_action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": "popup/icon.png"
+    },
+  "permissions": ["storage",
+      "https://steady.page/*"
+  ],
+  "content_scripts": [
+      {
+      "matches":[
+          "https://steady.page/*"
+      ],
+      "js": ["content/content.js"],
+      "css": ["content/content.css"]
+      }
+  ]
+}

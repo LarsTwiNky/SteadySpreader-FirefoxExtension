@@ -1,0 +1,9 @@
+/*_breakpoint.scss*/
+.post__wrapper{
+    grid-template-columns: [main-start] repeat(8, 1fr) [main-end] !important;
+}
+
+/*post.scss*/
+.post__wrapper{
+    max-width: var(--slider-value) !important;
+}
