@@ -8,8 +8,7 @@
       "default_popup": "popup/popup.html",
       "default_icon": "popup/icon.png"
     },
-  "permissions": ["storage",
-      "https://steady.page/*"
+  "permissions": ["storage"
   ],
   "content_scripts": [
       {
