@@ -8,7 +8,7 @@
     "gecko": {
       "id": "SteadySpreader@LarsTwiNky",
       "data_collection_permissions": {
-        "collects_data": false
+        "required": ["none"]
       }
     }
   },
