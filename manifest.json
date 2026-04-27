@@ -4,8 +4,13 @@
   "version": "1.0",
   "description": "Spread Steady articles",
   "manifest_version": 2,
-  "data_collection_permissions": {
-    "collects_data": false
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "SteadySpreader@LarsTwiNky",
+      "data_collection_permissions": {
+        "collects_data": false
+      }
+    }
   },
   "browser_action": {
       "default_popup": "popup/popup.html",
